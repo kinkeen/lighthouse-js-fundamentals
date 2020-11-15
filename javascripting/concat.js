@@ -1,5 +1,5 @@
 
-n push(toArray, fromArray) {     
+function push(toArray, fromArray){     
 	for(let i = 0, len = fromArray.length; i < len; i++) {
 		toArray.push(fromArray[i]);
 	}      return toArray;
