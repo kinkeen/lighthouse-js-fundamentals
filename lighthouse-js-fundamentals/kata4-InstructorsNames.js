@@ -14,8 +14,6 @@
   	return newArray;
   }
 
-    
-//{name: "Jeremiah", course: "Web"}    
   var instructors1 = [
   	{name: "Samuel",   course: "iOS"},
     {name: "Jeremiah", course: "Web"},
@@ -23,13 +21,12 @@
     {name: "Donald",   course: "Web"}
 	]; 
 
-  //{name: "Domascus", course: "Web"}
   var instructors2 = [
     {name: "David", course: "iOS"},
     {name: "Domascus", course: "Web"},
     {name: "Matthew", course: "Web"}
 	];
    
-  console.log(instructorWithLongestName(instructors1));
-  console.log(instructorWithLongestName(instructors2));
+  console.log(instructorWithLongestName(instructors1)); //{name: "Jeremiah", course: "Web"}    
+  console.log(instructorWithLongestName(instructors2)); //{name: "Domascus", course: "Web"}
 
